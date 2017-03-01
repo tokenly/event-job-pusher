@@ -1,0 +1,26 @@
+{
+  "name": "event-job-pusher",
+  "version": "0.0.0",
+  "description": "Pushes stats and notifications from a beanstalkd queue",
+  "main": "pusher.js",
+  "dependencies": {
+    "figlet": "^1.1.0",
+    "fivebeans": "^1.5.0",
+    "restler": "^3",
+    "winston": "^2.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tokenly/event-job-pusher"
+  },
+  "author": "Devon Weller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tokenly/event-job-pusher/issues"
+  },
+  "homepage": "https://github.com/tokenly/event-job-pusher"
+}
